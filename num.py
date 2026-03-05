@@ -1,8 +1,7 @@
 import numpy as np
 
-a=np.array([1,3,2,4,5],dtype='int16')
-b=np.array([[1,3,5,4],[3,3,5,7]])
-print(a.ndim)
-print(a.shape)
-print(a.dtype)
-print(b.size)
+
+a=np.array([1,2,3,4,5])
+print(a+5)
+b=np.random.rand(3,3)
+print(b)
